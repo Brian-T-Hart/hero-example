@@ -168,30 +168,6 @@
     .hero h1 {
         font-size: 32px;
         line-height: 32px;
-    }
-
-    .hero p {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .hero .content-left {
-        padding-left: 40px;
-    }
-
-    .hero-image {
-        max-width: 350px;
-    }
-
-    .hero .navbar {
-        margin-bottom: 75px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .hero h1 {
-        font-size: 32px;
-        margin-top: 25px;
         text-align: center;
     }
 
@@ -214,6 +190,10 @@
     .hero .content-left button {
         display: block;
         margin: auto;
+    }
+
+    .hero .navbar {
+        margin-bottom: 75px;
     }
 
     .hero .navbar-brand {
