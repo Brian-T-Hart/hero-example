@@ -116,37 +116,42 @@
 }
 
 @media screen and (max-width: 1600px) {
-    .content-left {
+    .hero h1 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    .hero .content-left {
         max-width: 50%;
     }
 
     .hero-image {
         max-width: 700px;
     }
-
-    .hero h1 {
-        font-size: 64px;
-        line-height: 64px;
-    }
 }
 
 @media screen and (max-width: 1400px) {
-    .content-left {
+    .hero h1 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    .hero .content-left {
         padding-left: 100px;
     }
 
     .hero-image {
         max-width: 600px;
     }
-
-    .hero h1 {
-        font-size: 54px;
-        line-height: 54px;
-    }
 }
 
 @media screen and (max-width: 1200px) {
-    .content-left {
+    .hero h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .hero .content-left {
         padding-left: 60px;
     }
 
@@ -154,25 +159,12 @@
         max-width: 500px;
     }
 
-    .hero h1 {
-        font-size: 48px;
-        line-height: 48px;
-    }
-
-    .navbar {
+    .hero .navbar {
         margin-bottom: 125px;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .content-left {
-        padding-left: 40px;
-    }
-
-    .hero-image {
-        max-width: 350px;
-    }
-
     .hero h1 {
         font-size: 32px;
         line-height: 32px;
@@ -183,32 +175,20 @@
         line-height: 30px;
     }
 
-    .navbar {
+    .hero .content-left {
+        padding-left: 40px;
+    }
+
+    .hero-image {
+        max-width: 350px;
+    }
+
+    .hero .navbar {
         margin-bottom: 75px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .content-left {
-        max-width: 100%;
-        padding-left: 0;
-    }
-
-    .content-left button {
-        display: block;
-        margin: auto;
-    }
-
-    .hero-content {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-image {
-        max-width: 100%;
-    }
-
     .hero h1 {
         font-size: 32px;
         margin-top: 25px;
@@ -220,8 +200,27 @@
         line-height: 30px;
     }
 
+    .hero-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .content-left {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .hero .content-left button {
+        display: block;
+        margin: auto;
+    }
+
     .hero .navbar-brand {
         margin-left: 0;
     }
 
+    .hero-image {
+        max-width: 100%;
+    }
 }
